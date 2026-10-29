@@ -33,3 +33,10 @@ Run them in order from the `notebooks/` folder:
 1. `01_data_exploration.ipynb` - check the images, count per class, show samples
 2. `02_data_preparation.ipynb` - split 70/15/15 into `data/classification/processed/`, augment the train set (blur, noise, flip)
 3. `03_classification_training.ipynb` - train the model and save it to `models/classification/`
+4. `04_classification_evaluation.ipynb` - accuracy, precision, recall, F1-score, confusion matrix, train vs test
+
+## Classification results (test set)
+
+| accuracy | precision | recall | F1-score |
+|---|---|---|---|
+| 0.910 | 0.912 | 0.906 | 0.908 |
